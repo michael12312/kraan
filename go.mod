@@ -4,29 +4,29 @@ go 1.14
 
 require (
 	github.com/fluxcd/helm-controller/api v0.11.2
-	github.com/fluxcd/pkg/apis/meta v0.10.1
+	github.com/fluxcd/pkg/apis/meta v0.17.0
 	github.com/fluxcd/pkg/untar v0.1.0
-	github.com/fluxcd/source-controller/api v0.15.4
+	github.com/fluxcd/source-controller/api v0.31.0
 	github.com/ghodss/yaml v1.0.0
-	github.com/go-logr/logr v0.4.0
-	github.com/golang/mock v1.5.0
-	github.com/google/go-cmp v0.5.6
-	github.com/onsi/ginkgo v1.16.4
-	github.com/onsi/gomega v1.14.0
+	github.com/go-logr/logr v1.2.3
+	github.com/golang/mock v1.6.0
+	github.com/google/go-cmp v0.5.8
+	github.com/onsi/ginkgo v1.16.5
+	github.com/onsi/gomega v1.20.1
 	github.com/paulcarlton-ww/goutils/pkg/kubectl v0.0.4
 	github.com/paulcarlton-ww/goutils/pkg/testutils v0.1.42
 	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.11.0
-	go.uber.org/zap v1.18.1
-	golang.org/x/mod v0.3.1-0.20200828183125-ce943fd02449
+	github.com/prometheus/client_golang v1.12.2
+	go.uber.org/zap v1.21.0
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4
 	helm.sh/helm/v3 v3.6.3
-	k8s.io/api v0.21.3
-	k8s.io/apiextensions-apiserver v0.21.3
-	k8s.io/apimachinery v0.21.3
+	k8s.io/api v0.25.0
+	k8s.io/apiextensions-apiserver v0.25.0
+	k8s.io/apimachinery v0.25.3
 	k8s.io/cli-runtime v0.21.3
-	k8s.io/client-go v0.21.3
+	k8s.io/client-go v0.25.0
 	k8s.io/kubectl v0.21.3
-	sigs.k8s.io/controller-runtime v0.9.5
+	sigs.k8s.io/controller-runtime v0.13.0
 	sigs.k8s.io/kind v0.11.1
 )
 
